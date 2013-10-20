@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2069819180777D000ED0E14 /* ECNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = B2069815180777D000ED0E14 /* ECNavigationController.h */; };
+		B206981A180777D000ED0E14 /* ECNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2069816180777D000ED0E14 /* ECNavigationController.m */; };
+		B206981B180777D000ED0E14 /* ECTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = B2069817180777D000ED0E14 /* ECTabBarController.h */; };
+		B206981C180777D000ED0E14 /* ECTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2069818180777D000ED0E14 /* ECTabBarController.m */; };
+		B206981E180786A800ED0E14 /* INTAnimationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B206981D180786A800ED0E14 /* INTAnimationManager.h */; };
+		B2071ECE180B85A3008D46E3 /* InterestingTweak.mm in Sources */ = {isa = PBXBuildFile; fileRef = B23F8B5C1807518300899597 /* InterestingTweak.mm */; };
+		B2152CE31807713B00B00C4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2152CE21807713B00B00C4B /* UIKit.framework */; };
+		B2152CE5180771A600B00C4B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2152CE4180771A600B00C4B /* MessageUI.framework */; };
+		B23F8B521807518200899597 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B23F8B511807518200899597 /* Foundation.framework */; };
+		B23F8B681807549E00899597 /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B23F8B671807549E00899597 /* libsubstrate.dylib */; };
+		B23F8B6C18075BE100899597 /* INTAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B23F8B6918075BE100899597 /* INTAppDelegate.h */; };
+		B23F8B6E18075BE100899597 /* SVWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B23F8B6B18075BE100899597 /* SVWebViewController.h */; };
+		B23F8B701807638800899597 /* INTListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B23F8B6F1807638800899597 /* INTListViewController.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B2069815180777D000ED0E14 /* ECNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECNavigationController.h; sourceTree = "<group>"; };
+		B2069816180777D000ED0E14 /* ECNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECNavigationController.m; sourceTree = "<group>"; };
+		B2069817180777D000ED0E14 /* ECTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECTabBarController.h; sourceTree = "<group>"; };
+		B2069818180777D000ED0E14 /* ECTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECTabBarController.m; sourceTree = "<group>"; };
+		B206981D180786A800ED0E14 /* INTAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTAnimationManager.h; sourceTree = "<group>"; };
+		B2152CE21807713B00B00C4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2152CE4180771A600B00C4B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		B23F8B511807518200899597 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B23F8B571807518200899597 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		B23F8B591807518200899597 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		B23F8B5A1807518200899597 /* InterestingTweak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InterestingTweak-Prefix.pch"; sourceTree = "<group>"; };
+		B23F8B5C1807518300899597 /* InterestingTweak.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = InterestingTweak.mm; sourceTree = "<group>"; };
+		B23F8B611807518300899597 /* InterestingTweak.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = InterestingTweak.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/InterestingTweak.plist; sourceTree = "<group>"; };
+		B23F8B671807549E00899597 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = "../../../../Volumes/Macintosh HD/opt/iOSOpenDev/lib/libsubstrate.dylib"; sourceTree = "<group>"; };
+		B23F8B6918075BE100899597 /* INTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTAppDelegate.h; sourceTree = "<group>"; };
+		B23F8B6B18075BE100899597 /* SVWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewController.h; sourceTree = "<group>"; };
+		B23F8B6F1807638800899597 /* INTListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTListViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B23F8B4C1807518200899597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23F8B681807549E00899597 /* libsubstrate.dylib in Frameworks */,
+				B2152CE5180771A600B00C4B /* MessageUI.framework in Frameworks */,
+				B2152CE31807713B00B00C4B /* UIKit.framework in Frameworks */,
+				B23F8B521807518200899597 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B201D8831809B13600E78E01 /* Interesting Headers */ = {
+			isa = PBXGroup;
+			children = (
+				B206981D180786A800ED0E14 /* INTAnimationManager.h */,
+				B23F8B6F1807638800899597 /* INTListViewController.h */,
+				B23F8B6918075BE100899597 /* INTAppDelegate.h */,
+				B23F8B6B18075BE100899597 /* SVWebViewController.h */,
+			);
+			name = "Interesting Headers";
+			sourceTree = "<group>";
+		};
+		B206981F180786AF00ED0E14 /* ECRotation Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B2069815180777D000ED0E14 /* ECNavigationController.h */,
+				B2069816180777D000ED0E14 /* ECNavigationController.m */,
+				B2069817180777D000ED0E14 /* ECTabBarController.h */,
+				B2069818180777D000ED0E14 /* ECTabBarController.m */,
+			);
+			name = "ECRotation Classes";
+			sourceTree = "<group>";
+		};
+		B23F8B451807518200899597 = {
+			isa = PBXGroup;
+			children = (
+				B23F8B531807518200899597 /* InterestingTweak */,
+				B23F8B501807518200899597 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B23F8B501807518200899597 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B23F8B671807549E00899597 /* libsubstrate.dylib */,
+				B2152CE4180771A600B00C4B /* MessageUI.framework */,
+				B2152CE21807713B00B00C4B /* UIKit.framework */,
+				B23F8B511807518200899597 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B23F8B531807518200899597 /* InterestingTweak */ = {
+			isa = PBXGroup;
+			children = (
+				B23F8B5C1807518300899597 /* InterestingTweak.mm */,
+				B206981F180786AF00ED0E14 /* ECRotation Classes */,
+				B201D8831809B13600E78E01 /* Interesting Headers */,
+				B23F8B541807518200899597 /* Package */,
+				B23F8B581807518200899597 /* Supporting Files */,
+			);
+			path = InterestingTweak;
+			sourceTree = "<group>";
+		};
+		B23F8B541807518200899597 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				B23F8B551807518200899597 /* DEBIAN */,
+				B23F8B5E1807518300899597 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		B23F8B551807518200899597 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				B23F8B571807518200899597 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		B23F8B581807518200899597 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B23F8B591807518200899597 /* PackageVersion.plist */,
+				B23F8B5A1807518200899597 /* InterestingTweak-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B23F8B5E1807518300899597 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				B23F8B5F1807518300899597 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		B23F8B5F1807518300899597 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				B23F8B601807518300899597 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		B23F8B601807518300899597 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				B23F8B611807518300899597 /* InterestingTweak.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B23F8B4D1807518200899597 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23F8B6C18075BE100899597 /* INTAppDelegate.h in Headers */,
+				B23F8B6E18075BE100899597 /* SVWebViewController.h in Headers */,
+				B206981B180777D000ED0E14 /* ECTabBarController.h in Headers */,
+				B206981E180786A800ED0E14 /* INTAnimationManager.h in Headers */,
+				B2069819180777D000ED0E14 /* ECNavigationController.h in Headers */,
+				B23F8B701807638800899597 /* INTListViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B23F8B4F1807518200899597 /* InterestingTweak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23F8B641807518300899597 /* Build configuration list for PBXNativeTarget "InterestingTweak" */;
+			buildPhases = (
+				B23F8B4B1807518200899597 /* Sources */,
+				B23F8B4C1807518200899597 /* Frameworks */,
+				B23F8B4D1807518200899597 /* Headers */,
+				B23F8B4E1807518200899597 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InterestingTweak;
+			productName = InterestingTweak;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B23F8B461807518200899597 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = B23F8B491807518200899597 /* Build configuration list for PBXProject "InterestingTweak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B23F8B451807518200899597;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B23F8B4F1807518200899597 /* InterestingTweak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B23F8B4E1807518200899597 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B23F8B4B1807518200899597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B206981C180777D000ED0E14 /* ECTabBarController.m in Sources */,
+				B2071ECE180B85A3008D46E3 /* InterestingTweak.mm in Sources */,
+				B206981A180777D000ED0E14 /* ECNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B23F8B621807518300899597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		B23F8B631807518300899597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		B23F8B651807518300899597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InterestingTweak/InterestingTweak-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos7.0;
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		B23F8B661807518300899597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InterestingTweak/InterestingTweak-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos7.0;
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B23F8B491807518200899597 /* Build configuration list for PBXProject "InterestingTweak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23F8B621807518300899597 /* Debug */,
+				B23F8B631807518300899597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B23F8B641807518300899597 /* Build configuration list for PBXNativeTarget "InterestingTweak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23F8B651807518300899597 /* Debug */,
+				B23F8B661807518300899597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B23F8B461807518200899597 /* Project object */;
+}

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'InterestingTweak' target in the 'InterestingTweak' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
