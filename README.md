@@ -1,4 +1,6 @@
-InterestingTweak
+Interesting Tweak
 ================
 
-The materials and accompanying Xcode project used in Chris's talk entitled "An Interesting approach to reverse engineering apps"
+Clone this repository locally to obtain a copy of the Xcode project.
+
+Slides are available here: [http://cl.ly/0l2a1P0w1k2p](http://cl.ly/0l2a1P0w1k2p)
