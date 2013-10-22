@@ -7,7 +7,7 @@ Slides are available here: [http://cl.ly/2z3p2t003f3o](http://cl.ly/2z3p2t003f3o
 
 Xcode project requires [http://iosopendev.com](iOSOpenDev) to compile (needs libsubstrate.dylib, among other things).
 
-Class-Dump can be downloaded from here: http://stevenygard.com/projects/class-dump/](http://stevenygard.com/projects/class-dump/)
+Class-Dump can be downloaded from here: [http://stevenygard.com/projects/class-dump/](http://stevenygard.com/projects/class-dump/)
 
 The **full** class-dump that this tweak is based on is available here for convenience: [http://cl.ly/2W1j2a0j2i3e](http://cl.ly/2W1j2a0j2i3e)
 
