@@ -1,6 +1,8 @@
 Interesting Tweak
 ================
 
+Video of this talk can be found at: [http://cocoaheads.tv/an-interesting-approach-to-reverse-engineering-apps-by-chris-stroud/](http://cocoaheads.tv/an-interesting-approach-to-reverse-engineering-apps-by-chris-stroud/).
+
 Clone this repository locally to obtain a copy of the Xcode project.
 
 Slides are available here: [http://cl.ly/2z3p2t003f3o](http://cl.ly/2z3p2t003f3o)
